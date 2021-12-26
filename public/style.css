@@ -33,21 +33,14 @@ h1 {
 h2 {
   text-align: center;
   color: #800080;
-}
-
-a.name {
-  text-decoration: none;
-  color: black;
-}
-
-a.name:hover {
-  text-decoration: underline;
+  font-size: 2.5em;
 }
 
 p {
   text-align: center;
   margin-left: 80px;
   margin-right: 80px;
+  font-size: 25px;
 }
 
 img {
@@ -95,18 +88,4 @@ img#mainImage {
 
 footer{
   padding-bottom:100px;
-}
-
-@media only screen and (max-width: 415px) {
-  h1{
-    font-size:85px;
-  }
-
-  h2{
-    font-size:50px;
-  }
-
-  p{
-    font-size: 40px;
-  }
 }
