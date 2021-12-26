@@ -107,8 +107,12 @@ img#mainImage {
   display: block;
 }
 
+<<<<<<< HEAD
 a.year,
 a {
+=======
+a.year {
+>>>>>>> parent of 574ec4a (purple header)
   text-decoration: underline;
   color: #4b0082;
 }
