@@ -97,7 +97,7 @@ footer{
   padding-bottom:100px;
 }
 
-@media only screen and (min-width: 415px) {
+@media only screen and (max-width: 415px) {
   h1{
     font-size:85px;
   }
