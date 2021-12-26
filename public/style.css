@@ -35,11 +35,6 @@ h2 {
   color: #800080;
 }
 
-h3 {
-  color: #800080;
-  text-align: center;
-}
-
 a.name {
   text-decoration: none;
   color: black;
@@ -53,22 +48,6 @@ p {
   text-align: center;
   margin-left: 80px;
   margin-right: 80px;
-}
-
-ul {
-  width: 8%;
-  margin: auto;
-  font-size: 1.2em;
-  list-style-position: inside;
-  text-align: left;
-}
-
-ol {
-  width: 15%;
-  margin: auto;
-  font-size: 1.2em;
-  list-style-position: inside;
-  text-align: left;
 }
 
 img {
@@ -116,4 +95,18 @@ img#mainImage {
 
 footer{
   padding-bottom:100px;
+}
+
+@media only screen and (min-width: 415px) {
+  h1{
+    font-size:85px;
+  }
+
+  h2{
+    font-size:50px;
+  }
+
+  p{
+    font-size: 40px;
+  }
 }
